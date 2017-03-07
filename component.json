@@ -1,5 +1,5 @@
 {
-  "templateFile": "stateless-component.js",
+  "templateFile": "component.js",
   "questions": [
     {
       "name": "ComponentName",
@@ -12,6 +12,12 @@
       "type": "list",
       "choices": ["Yes","No"],
       "message": "Do you need access to the Router for example to read the URL?"
+    },
+    {
+      "name": "StatefulComponent",
+      "type": "list",
+      "choices": ["Yes","No"],
+      "message": "Does this component hold state?"
     }
   ]
 }
