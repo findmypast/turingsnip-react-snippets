@@ -1,0 +1,11 @@
+{
+  "templateFile": "stateless-component.js",
+  "questions": [
+    {
+      "name": "ComponentName",
+      "type": "input",
+      "default": "<SPECIFYNAMEHERE>",
+      "message": "What is the name of the react component you are creating?"
+    }
+  ]
+}
