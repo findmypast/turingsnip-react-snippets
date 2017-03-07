@@ -6,6 +6,12 @@
       "type": "input",
       "default": "<SPECIFYNAMEHERE>",
       "message": "What is the name of the react component you are creating?"
+    },
+    {
+      "name": "AccessToUrl",
+      "type": "list",
+      "choices": ["Yes","No"],
+      "message": "Do you need access to the Router for example to read the URL?"
     }
   ]
 }
