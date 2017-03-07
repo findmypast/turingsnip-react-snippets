@@ -1,0 +1,17 @@
+{
+  "templateFile": "component-test.js",
+  "questions": [
+    {
+      "name": "ComponentName",
+      "type": "input",
+      "default": "<SPECIFYNAMEHERE>",
+      "message": "What is the name of the react component you are testing?"
+    },
+    {
+      "name": "ToggleMock",
+      "type": "list",
+      "choices": ["Yes","No"],
+      "message": "Does this component use Toggles?"
+    }
+  ]
+}
