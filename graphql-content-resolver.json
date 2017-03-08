@@ -1,0 +1,23 @@
+{
+  "templateFile": "graphql-content-resolver.ex",
+  "questions": [
+    {
+      "name": "NameSpace",
+      "type": "input",
+      "default": "<SPECIFYNAMEHERE>",
+      "message": "What is the namespace of the graphql resolver?"
+    },
+    {
+      "name": "Name",
+      "type": "input",
+      "default": "<SPECIFYNAMEHERE>",
+      "message": "What is the name of the graphql resolver?"
+    },
+    {
+      "name": "ExampleResolvers",
+      "type": "checkbox",
+      "choices": ["Localised Text Resolver", "Empty Resolver", "Link Resolver"],
+      "message": "Choose the default implementations you would like in your template."
+    }
+  ]
+}
